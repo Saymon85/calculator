@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 70%
+}
+.calculator{
+    margin: 50px auto;
+    width: 90%;
+}
+.keys{
+    display: flex;
+    flex-direction: column;
+}
+.display input{
+    padding-right: 3px;
+    height: 100px;
+    width: 400px;
+}
+.operators{
+    display: flex;
+}
+.digits{
+    display: flex;
+}
+button{
+    margin-top: 1px;
+    height: 75px;
+    width:100px;
+}
