@@ -3,9 +3,10 @@
     padding: 0;
 }
 .container{
+    background-color: #95CDD6;
     margin: 0 auto;
-    margin-top: 150px;
-    width: 70%
+    margin-top: 100px;
+    width: 70%;
 }
 .calculator{
     margin: 50px auto;
@@ -27,7 +28,8 @@
     display: flex;
 }
 button{
-    margin-top: 1px;
+    /* margin-top: 1px; */
+    border: solid 1px gray;
     height: 75px;
     width:100px;
 }
