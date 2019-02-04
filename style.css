@@ -3,8 +3,12 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-family: Helvetica, Arial, sans-serif;
+}
 .container{
-    background-color: #95CDD6;
+    background-image: linear-gradient(200deg, #74ebd5, #acb6e5);
+    /* background-color: #95CDD6; */
     margin: 0 auto;
     /* margin-top: 30px; */
     height: 100vh;
@@ -13,7 +17,7 @@
 .calculator{
     margin: 0 auto;
     padding: 50px 0;
-    width: 30%;
+    max-width: 400px;
 }
 .keys{
     border-top-left-radius: 10px;
